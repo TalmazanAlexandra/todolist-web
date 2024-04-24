@@ -59,7 +59,7 @@
   
   .day-switches {
     display: flex;
-    justify-content: left;
+    justify-content: right; 
     flex-direction: column;
   }
 

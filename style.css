@@ -126,6 +126,10 @@
     transition: 0.3s ease-in-out;
   }
 
+  #calendar {
+    display: none; 
+  }
+
   #calendar-switch {
     background-image: url("images/calendar.png");
     background-size:cover;

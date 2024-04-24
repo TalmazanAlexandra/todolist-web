@@ -56,7 +56,11 @@
     background-image: var(--sky);
   }
   
-  
+  #calendar {
+    display: flex;
+    justify-content: right; 
+    flex-direction: column;
+  }
   .day-switches {
     display: flex;
     justify-content: right; 

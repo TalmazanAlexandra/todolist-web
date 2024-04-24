@@ -11,6 +11,18 @@ let style = localStorage.getItem('style');
 
 let day = localStorage.getItem('day');
 
+const calendarMenu = document.getElementById('calendar');
+
+// Add event listener to the button
+document.getElementById('calendar-switch').addEventListener('click', () => {
+  // Toggle the display of the calendar menu
+  if (calendarMenu.style.display === 'none') {
+    calendarMenu.style.display = 'flex'; // Show the calendar menu
+  } else {
+    calendarMenu.style.display = 'none'; // Hide the calendar menu
+  }
+});
+
 if (style == null) {
   setTheme('light');
 } else {
